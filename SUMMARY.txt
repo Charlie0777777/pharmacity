@@ -1,0 +1,37 @@
+=========================================
+PROJECT: PHARMACITY - DIGITAL HEALTHCARE
+=========================================
+
+1. PROJECT OVERVIEW
+-------------------
+Pharmacity is a high-performance, single-page application (SPA) designed to modernize the local pharmacy experience. It prioritizes user trust, accessibility for elderly users, and conversion-optimized design.
+
+2. CORE FEATURES
+----------------
+- Dynamic Product Catalog: 10+ medical products across 4 healthcare categories.
+- Real-time Search: Instant filtering by medicine name or manufacturer brand.
+- Frictionless Rx Upload: A simulated drag-and-drop zone for medical prescriptions.
+- Interactive UX: Live cart count updates and pharmacist chat trigger.
+- Fully Responsive: Tested for desktop, tablet, and smartphone viewports.
+
+3. TECH STACK
+-------------
+- Frontend: React 19 (Modern UI Library)
+- Styling: Tailwind CSS 4.0 (Utility-first design)
+- Icons: Lucide React (Streamlined SVG iconography)
+- Animations: Motion/React (Micro-interactions and transitions)
+- Server/Build: Vite (Modern build tool for optimized static delivery)
+
+4. DESIGN PHILOSOPHY
+--------------------
+The "Clean Minimalism" theme was applied to minimize user distraction. 
+- Primary Color: Medical Blue (#2563eb) - Chosen to evoke professional trust.
+- Accent Color: Emerald Green (#059669) - Chosen to represent health and vitality.
+- Typography: Inter (Sans-serif) - Optimized for screen readability.
+
+5. HOW TO DEPLOY TO XAMPP
+-------------------------
+1. Run `npm run build` to generate the production 'dist' folder.
+2. Move 'dist' contents to 'C:/xampp/htdocs/pharmacity'.
+3. Start Apache via XAMPP Control Panel.
+4. Access via 'http://localhost/pharmacity'.
